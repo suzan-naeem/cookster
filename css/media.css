@@ -1,0 +1,151 @@
+/* Smart Phones And Tablets */
+
+@media (max-width:768px) {
+    .navbar .search .form input[type="search"] {
+        width: 90%;
+        text-align: center
+    }
+    .header .img {
+        float: none;
+        margin: 20px auto 0
+    }
+    .about {
+        text-align: center
+    }
+    .about .info h1 {
+        font-size: 25px
+    }
+    .chefs .img .info-img {
+        height: 25%
+    }
+    .servcies .box-servcies .info p {
+        font-size: 14px
+    }
+    .blog .box-blog .flex > div {
+        margin: 0 3px
+    }
+    .blog .cont {
+        text-align: center
+    }
+    .blog .cont .info h1 {
+        font-size: 29px
+    }
+    .blog .cont .links {
+        display: block
+    }
+    .blog .cont .links span {
+        margin-bottom: 10px
+    }
+    .blog .cont .links a {
+        display: block;
+        margin-top: 10px
+    }
+    .promo .info {
+        padding-top: 20px
+    }
+    .promo .info h2 {
+        font-size: 23px
+    }
+    .promo .info h4 {
+        font-size: 20px
+    }
+    .promo .info input[type="email"] {
+        width: 58%
+    }
+    .promo .info input[type="submit"] {
+        padding: 10px 8px
+    }
+    .cookster .newsletter .letter-box input[type="email"] {
+        width: 76%
+    }
+    .footer {
+        text-align: center
+    }
+    .footer .copyright {
+        margin-top: 0
+    } 
+    .footer .social {
+        text-align: center;
+        margin: 10px auto
+    }
+}
+
+/* Small Screen */
+
+@media (min-width:769px) and (max-width:991px) {
+    .navbar .search .form input[type="search"] {
+        width: 70%;
+        text-align: center
+    }
+    .header .img {
+        float: none;
+        margin: 20px auto 0
+    }
+    .servcies .box-servcies .info p {
+        font-size: 13px
+    }
+    .blog .cont {
+        text-align: center
+    }
+    .blog .cont .links span {
+        margin-right: 20px
+    }
+    .blog .cont .links a {
+        padding: 10px 25px;
+        margin-left: 20px
+    }
+    .promo .info {
+        padding-top: 20px
+    }
+    .cookster .pages .link li {
+        width: 250px
+    }
+    .footer {
+        text-align: center
+    }
+    .footer .social {
+        text-align: center;
+        margin: 10px auto
+    }
+}
+
+/* Medium Screen */
+
+@media (min-width:992px) and (max-width:1199px) {
+    .about .info h1,
+    .chefs .info h1 {
+        font-size: 35px
+    }
+    .blog .box-blog .flex > div {
+        margin: 0 9px;
+        text-align: center
+    }
+    .blog .cont {
+        text-align: center
+    }
+    .blog .cont .links {
+        display: block;
+        margin-top: 0
+    }
+    .blog .cont .links span {
+        margin-right: 20px
+    }
+    .blog .cont .links a {
+        padding: 10px 25px;
+        margin-left: 20px;
+        display: block
+    }
+    .promo .info input[type="email"] {
+        width: 65%
+    }
+    .cookster .pages .link li {
+        width: 140px
+    }
+    .cookster .newsletter .letter-box input[type="email"] {
+        width: 70%
+    }
+}
+
+/* Large Screen */
+
+@media (min-width:1200px) {}
